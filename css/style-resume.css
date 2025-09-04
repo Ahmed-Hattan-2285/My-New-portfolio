@@ -1,0 +1,104 @@
+/* Note: I used Color variables.These are intended to facilitate modification later.
+So if I want to change the site's colors, I can modify them from just one place, here.*/
+
+/*All CSS I used from :https://developer.mozilla.org/en-US/🔥*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f7f9fc;
+  padding: 2rem;
+  color: #0a2a66; /* لون أزرق غامق */
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.resume {
+  max-width: 850px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  color: #0a2a66;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  border-bottom: 2px solid #0a2a66;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header p {
+  color: #555;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.item {
+  margin-bottom: 1rem;
+}
+
+.item span {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.skills li {
+  background: #e8f0fe;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #0a2a66;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #777;
+}
