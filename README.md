@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Ahmed Hattan!
 
 🎓 **Computer Science Graduate**  
-💻 **Full-Stack & Flutter Developer**  
+💻 **Full-Stack Developer**  
 🎨 **UI/UX Enthusiast**  
 📊 **Database Management**  
 ⚙️ **System Optimization & Technical Support**
