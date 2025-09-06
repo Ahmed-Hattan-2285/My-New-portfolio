@@ -60,6 +60,9 @@ h2 {
   border-left: 4px solid var(--accent);
   padding-left: 0.6rem;
 }
+a {
+  color: #0077b5;
+}
 
 .tagline {
   margin: 0.25rem 0 1rem;

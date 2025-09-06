@@ -56,6 +56,16 @@ h3 {
   margin-bottom: 0.2rem;
 }
 
+a {
+  color: #000000;
+}
+
+a:hover {
+    color: #040cf7;
+
+
+}
+
 .Experince li {
     margin-left: 40px;
     margin-bottom: 10px;
